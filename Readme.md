@@ -1,8 +1,12 @@
 Приложение для получение всех типов HTML тегов с введенной страницы.
 
-POST body : url <site_url> - localhost/tags/ -> task_id 
+Требуемый вид запросов POST и GET:
 
-GET localhost/tags/<task_id> получаете количество тэгов 
+*POST: body : url <site_url> - localhost/tags/ -> task_id 
+
+*GET: localhost/tags/<task_id> 
+
+В результате получаете количество и все типы теговю
 
 Для старта приложения необходимо установить :
 
