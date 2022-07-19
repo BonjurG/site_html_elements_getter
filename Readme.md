@@ -3,19 +3,22 @@
 API:
 
 *POST: : localhost/tags/
+
 BODY : { url :<site_url>} 
+
 RESPONSE: 201, “task_id”
 
 *GET: localhost/tags/<task_id>
+
 RESPONSE: 200, { HTML_tags : [<list of tags>] }
 
 В результате получаете количество и все типы тегов.
 
 Для правильной работы приложения:
 
-*Python 3.5 >
+- Python 3.5 >
 
-*Redis
+- Redis
 
 Для старта выполните следующие действия:
 
